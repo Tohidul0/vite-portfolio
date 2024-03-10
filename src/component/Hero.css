@@ -1,0 +1,26 @@
+.Home{
+    margin-top: 40px;
+    display: flex;
+    padding: 10px  60px;
+    overflow: hidden;
+    padding-top: 80px;
+    background-color:rgb(41, 37, 70);
+    color: white;
+}
+.colorr{
+    color: greenyellow;
+
+}
+#homeImg{
+    height: 390px;
+    width: 380px;
+    overflow: hidden;
+    border: 1px solid rgb(196, 103, 103);
+    border-radius: 100%;
+    border-spacing: 0; 
+
+}
+.hi{
+    display: flex;
+    align-items: center;
+}
