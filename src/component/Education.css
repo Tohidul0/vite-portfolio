@@ -1,0 +1,30 @@
+.institution h3,
+.institution h5{
+    margin: 10px;
+}
+.institution{
+    
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+   
+    height: 280px;
+  
+}
+.date{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Education{
+    
+    overflow: hidden;
+
+    margin-top: 40px;
+    
+    padding: 10px  60px;
+   
+
+}

@@ -3,26 +3,18 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 function Navbarco() {
   return (
-    <>
-     <Navbar expand="lg" className="bg-body-tertiary">
+    <div className='navbar   bg-info'>
+     <Navbar expand="lg" className="  w-100 container-fluid h-100 ">
       <Container fluid>
         <Navbar.Brand href="#">AKIL</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
          
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+         
 
 
           <Nav
@@ -30,8 +22,8 @@ function Navbarco() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
+            <Nav.Link href="#Hero">Home</Nav.Link>
+            <Nav.Link href="#About">About</Nav.Link>
             <Nav.Link href="#action2">Education</Nav.Link>
             <Nav.Link href="#action2">TeckStack</Nav.Link>
             <Nav.Link href="#action2">Project</Nav.Link>
@@ -42,7 +34,7 @@ function Navbarco() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </>
+    </div>
   );
 }
 
